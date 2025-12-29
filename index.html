@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Marri Lahari Krishna</title>
+    <meta name="description" content="Portfolio of Marri Lahari Krishna, an IoT Specialist and Full Stack Developer.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="background-gradient"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Portfolio<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link contact-btn">Contact Me</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1 class="hero-title">Marri Lahari <br><span class="highlight">Krishna</span></h1>
+                    <p class="hero-subtitle">IoT Specialist & Full Stack Developer. Building end-to-end solutions with
+                        Cloud, AI/ML, and IoT.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn primary-btn">View Work</a>
+                        <!-- RESUME PLACEHOLDER: User can link their resume here -->
+                        <a href="resume.pdf?v=1" class="btn secondary-btn" id="resume-btn" download>Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="profile.png" alt="Marri Lahari Krishna" class="hero-image"
+                        style="border-radius: 20px; border: 1px solid var(--border-color); width: 350px; height: 450px; object-fit: cover;">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text-column">
+                        <p class="about-text">
+                            Final-year B.Tech student specializing in IoT with strong knowledge of Cloud Computing,
+                            AI/ML, and Software Development.
+                            Experienced in building end-to-end solutions, including cloud-based analysis projects and
+                            IoT safety systems.
+                            Skilled in C, Java, React.js, Node.js, SQL, and Python.
+                        </p>
+                        <div class="education-timeline" style="margin-top: 2rem;">
+                            <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Education</h3>
+                            <div class="edu-item" style="margin-bottom: 1rem;">
+                                <h4 style="color: var(--accent-color);">B.Tech in IoT (AI & IPA)</h4>
+                                <p style="color: var(--text-secondary);">KL University, Vijayawada | CGPA: 9.34/10</p>
+                                <span style="font-size: 0.85rem; opacity: 0.7;">2022 - Present</span>
+                            </div>
+                            <div class="edu-item" style="margin-bottom: 1rem;">
+                                <h4>Intermediate (MPC)</h4>
+                                <p style="color: var(--text-secondary);">Sri Chaitanya Junior College | 72.34%</p>
+                                <span style="font-size: 0.85rem; opacity: 0.7;">2020 - 2022</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Major Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Publication</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">9.34</span>
+                            <span class="stat-label">CGPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Programming</h3>
+                        <p>C, Java, Python, HTML/CSS, SQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Cloud & IoT</h3>
+                        <p>AWS (Certified), Arduino, Raspberry Pi</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Frameworks</h3>
+                        <p>React.js, Node.js, REST APIs</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tools</h3>
+                        <p>Git, VS Code, Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title">Selected Works</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="project-portfolio.jpg" alt="Student Project Platform"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Student Project & Portfolio Platform</h3>
+                            <p>Designed and developed a Java-based web application for managing and showcasing student
+                                projects and portfolios. Implemented role-based access with Admin (Teacher) and User
+                                (Student) dashboards.</p>
+                            <p style="font-size: 0.85rem; color: var(--accent-color); margin-bottom: 1rem;">Java, JSP,
+                                MySQL, Bootstrap</p>
+                            <button class="link-arrow btn-text" data-project="student">View Details &rarr;</button>
+                        </div>
+                    </article>
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="project-water.png" alt="Water Safety IoT"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Water Safety Monitoring IoT</h3>
+                            <p>Designed and deployed a smart IoT system for real-time water safety monitoring.
+                                Coordinated sensor integration and data collection with a cloud-based alert and
+                                monitoring system.</p>
+                            <p style="font-size: 0.85rem; color: var(--accent-color); margin-bottom: 1rem;">IoT, Cloud,
+                                Sensors</p>
+                            <button class="link-arrow btn-text" data-project="water">View Details &rarr;</button>
+                        </div>
+                    </article>
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="project-railway.png" alt="Railway Gate Control"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Auto Railway Gate Control</h3>
+                            <p>Developed a prototype safety system using IR sensors and servo motors to control railway
+                                gates automatically. Aimed at preventing accidents by detecting train presence in
+                                real-time.</p>
+                            <p style="font-size: 0.85rem; color: var(--accent-color); margin-bottom: 1rem;">Arduino,
+                                C++, IR Sensors</p>
+                            <button class="link-arrow btn-text" data-project="railway">View Details &rarr;</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Publications & Certs Section Addition -->
+                <div style="margin-top: 4rem;">
+                    <h2 class="section-title">Certifications & Publications</h2>
+                    <div class="skills-grid" style="grid-template-columns: 1fr;">
+                        <div class="skill-card" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <h3>Publication</h3>
+                            <p><strong>Machine Learning Based Booklet Status Detection</strong> - Presented at ICMVRCET
+                                2025.</p>
+                            <button class="link-arrow btn-text" data-project="publication"
+                                style="font-size: 0.9rem; margin-top: 0.5rem;">Read Abstract &rarr;</button>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Certifications</h3>
+                            <ul style="list-style: disc; padding-left: 1.5rem; color: var(--text-secondary);">
+                                <li style="margin-bottom: 0.5rem;"><strong>AWS Certified Cloud Practitioner</strong> –
+                                    Amazon Web Services</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>NPTEL Certification (IoT)</strong> – National
+                                    Programme on Technology Enhanced Learning</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>IBM Developer Skills Network</strong> –
+                                    Certified by IBM Education</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>Oracle Cloud Infrastructure Foundations
+                                        Associate</strong> – Oracle</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>Research Paper Certificate</strong> –
+                                    Presented at ICMVRCET 2025 (in association with Taylor & Francis)</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>Artificial Intelligence and Machine Learning
+                                        Using Python</strong> – Industrial Automation (Level-2)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-container">
+                <div class="contact-text">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p>Have a project in mind? Reach me at <br>
+                        <span style="color: var(--accent-color)">2200100055iot@gmail.com</span> <br>
+                        <span style="color: var(--accent-color)">9010825396</span>
+                    </p>
+                    <div style="margin-top: 2rem;">
+                        <a href="mailto:2200100055iot@gmail.com" class="btn primary-btn big-btn">Email Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/marri-lahari-krishna-42a8b824b/">LinkedIn</a>
+                <a href="https://github.com/LAHARIKRISHNAMARRI">GitHub</a>
+              
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title">Project Title</h2>
+                <div id="modal-tags" class="modal-tags"></div>
+            </div>
+            <div class="modal-body">
+                <p id="modal-description">Project description goes here.</p>
+
+                <h3 class="modal-subtitle">Key Features</h3>
+                <ul id="modal-features" class="modal-list">
+                    <!-- Features injected via JS -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
